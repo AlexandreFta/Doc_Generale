@@ -55,14 +55,69 @@ public class Dog : Animal
 
 ## ⚙️ Gestion de l'héritage avec les mots-clés
 
-- class -> Permet de définir une classe, qui peut être une base (parent) ou dérivée (enfant).
-- : -> Sert à hériter d'une classe ou à implémenter une interface. Ex : class Fille : Mère
-- base -> Permet d'accéder à la classe parente (constructeur ou méthode).
-- virtual -> Marque une méthode dans la classe de base comme surchargeable.
-- override -> Utilisé dans la classe dérivée pour remplacer une méthode marquée virtual.
-- abstract -> Indique qu'une classe ou méthode est incomplète et doit être héritée/surchargée.
-- sealed -> Empêche une classe d’être héritée. Peut aussi bloquer la surcharge d’une méthode.
-- protected -> Rend un membre accessible aux classes dérivées, mais pas à l’extérieur.
+- class ➡️ Permet de définir une classe, qui peut être une base (parent) ou dérivée (enfant).
+- : ➡️ Sert à hériter d'une classe ou à implémenter une interface. Ex : class Fille : Mère
+- base ➡️ Permet d'accéder à la classe parente (constructeur ou méthode).
+
+```csharp
+
+class Animal {
+    public Animal() {
+        Console.WriteLine("Animal créé.");
+    }
+}
+
+class Chien : Animal {
+    public Chien() : base() {
+        Console.WriteLine("Chien créé.");
+    }
+// Le mot base() appelle le constructeur de Animal avant d’exécuter celui de Chien.
+}
+
+```
+
+- virtual ➡️ Marque une méthode dans la classe de base comme surchargeable.
+- override ➡️ Utilisé dans la classe dérivée pour remplacer une méthode marquée virtual.
+
+```csharp
+
+class Animal {
+    public Animal() {
+        Console.WriteLine("Animal créé.");
+    }
+}
+
+class Chien : Animal {
+    public Chien() : base() {
+        Console.WriteLine("Chien créé.");
+    }
+// Parler() est modifiable dans les classes enfants grâce à virtual.
+//Chien remplace le comportement avec override.
+}
+
+```
+
+- new ➡️ Créer une nouvelle méthode avec le même nom, mais indépendante de celle du parent.
+- abstract ➡️ Indique qu'une classe ou méthode est incomplète et doit être héritée/surchargée.
+
+```csharp
+
+abstract class Animal {
+    public abstract void Parler();
+}
+
+class Chien : Animal {
+    public override void Parler() {
+        Console.WriteLine("Le chien aboie.");
+    }
+// Animal est abstrait : il ne peut pas être instancié directement.
+//Chien doit implémenter Parler().
+}
+
+```
+
+- sealed ➡️ Empêche une classe d’être héritée. Peut aussi bloquer la surcharge d’une méthode.
+- protected ➡️ Rend un membre accessible aux classes dérivées, mais pas à l’extérieur.
 
 ---
 

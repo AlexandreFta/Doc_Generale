@@ -5,6 +5,7 @@
 - [📘 Définition](#-définition)
 - [🎯 Objectifs de l'encapsulation](#-objectifs-de-lencapsulation)
 - [📦 Encapsulation dans les projets .NET](#-encapsulation-dans-les-projets-net)
+- [⚙️ Gestion de l'encapsulation avec les mots-clés](#️-gestion-de-lencapsulation-avec-les-mots-clés)
 - [🧪 Exemple concret en C#](#-exemple-concret-en-c)
 - [📚 Ressources](#-ressources)
 <!-- /TOC -->
@@ -38,6 +39,13 @@ Le but est de **protéger l'état interne de l'objet** contre des modifications 
 - Services : encapsulent la logique métier et les appels aux bases de données ou APIs.
 
 ---
+
+## ⚙️ Gestion de l'encapsulation avec les mots-clés
+
+- private ➡️ Accessible seulement dans la même class
+- public ➡️ Accessible dans tout le projet
+- protected ➡️ Accessible dans la classe et les enfants (héritage)
+- internal ➡️ Accessible dans le même projet ou assembly
 
 ## 🧪 Exemple concret en C#
 
@@ -81,4 +89,3 @@ public class BankAccount
 - [Documentation Microsoft - Les Modificateurs d'accès](https://learn.microsoft.com/fr-fr/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)
 - [Documentation Geeksforgeeks - Encapsulation](https://www.geeksforgeeks.org/c-sharp/encapsulation-in-c-sharp/)
 - [Documentation C# Corner - Encapsulation](https://www.c-sharpcorner.com/article/encapsulation-in-C-Sharp/)
-
