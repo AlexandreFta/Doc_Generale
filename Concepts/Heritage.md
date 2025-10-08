@@ -155,6 +155,7 @@ dog.Bark();   // Propre à Dog
 
 ## 📚 Ressources
 
-- [Documentation Microsoft - Héritage](https://learn.microsoft.com/fr-fr/dotnet/csharp/fundamentals/object-oriented/inheritance)
+- [Documentation Microsoft - Héritage types](https://learn.microsoft.com/fr-fr/dotnet/csharp/fundamentals/object-oriented/inheritance)
+- [Documentation Microsoft - Héritage](https://learn.microsoft.com/fr-fr/dotnet/csharp/fundamentals/tutorials/inheritance?utm_source=chatgpt.com)
 - [Documentation Microsoft - Mot Clés](https://learn.microsoft.com/fr-fr/dotnet/csharp/programming-guide/classes-and-structs/versioning-with-the-override-and-new-keywords)
 - [Documentation Microsoft - Sealed](https://learn.microsoft.com/fr-fr/dotnet/csharp/language-reference/keywords/sealed)
