@@ -2,13 +2,11 @@
 
 ## 📑 Sommaire
 <!-- TOC -->
-- [🔐 Encapsulation en C# / .NET](#-encapsulation-en-c--net)
-  - [📑 Sommaire](#-sommaire)
-  - [📘 Définition](#-définition)
-  - [🎯 Objectifs de l'encapsulation](#-objectifs-de-lencapsulation)
-  - [📦 Encapsulation dans les projets .NET](#-encapsulation-dans-les-projets-net)
-  - [🧪 Exemple concret en C#](#-exemple-concret-en-c)
-  - [📚 Ressources](#-ressources)
+- [📘 Définition](#-définition)
+- [🎯 Objectifs de l'encapsulation](#-objectifs-de-lencapsulation)
+- [📦 Encapsulation dans les projets .NET](#-encapsulation-dans-les-projets-net)
+- [🧪 Exemple concret en C#](#-exemple-concret-en-c)
+- [📚 Ressources](#-ressources)
 <!-- /TOC -->
 
 ---
