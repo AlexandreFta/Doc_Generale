@@ -2,13 +2,13 @@
 
 ## 📑 Sommaire
 <!-- TOC -->
-- [� Encapsulation en C# / .NET](#-encapsulation-en-c--net)
+- [🔐 Encapsulation en C# / .NET](#-encapsulation-en-c--net)
   - [📑 Sommaire](#-sommaire)
   - [📘 Définition](#-définition)
   - [🎯 Objectifs de l'encapsulation](#-objectifs-de-lencapsulation)
   - [📦 Encapsulation dans les projets .NET](#-encapsulation-dans-les-projets-net)
   - [🧪 Exemple concret en C#](#-exemple-concret-en-c)
-  - [Ressources](#ressources)
+  - [📚 Ressources](#-ressources)
 <!-- /TOC -->
 
 ---
@@ -73,9 +73,14 @@ public class BankAccount
     }
 }
 
+```
+
 ---
 
-## Ressources
+## 📚 Ressources
 
-- [Documentation Microsoft](https://donettutorials.net)
+- [Documentation Microsoft - Les Propriétés](https://learn.microsoft.com/fr-fr/dotnet/csharp/programming-guide/classes-and-structs/properties)
+- [Documentation Microsoft - Les Modificateurs d'accès](https://learn.microsoft.com/fr-fr/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)
+- [Documentation Geeksforgeeks - Encapsulation](https://www.geeksforgeeks.org/c-sharp/encapsulation-in-c-sharp/)
+- [Documentation C# Corner - Encapsulation](https://www.c-sharpcorner.com/article/encapsulation-in-C-Sharp/)
 
